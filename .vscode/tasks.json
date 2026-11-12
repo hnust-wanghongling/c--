@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build C++",
+            "type": "shell",
+            "command": "E:\\javaYc\\VSCode\\mingw\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "-std=c++17",
+                "${file}",
+                "-o",
+                "${workspaceFolder}\\out\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "使用 g++ 编译当前 C++ 文件到 out 目录"
+        }
+    ]
+}

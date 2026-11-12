@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "E:\\javaYc\\VSCode\\mingw\\include",
+                "E:\\javaYc\\VSCode\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include",
+                "E:\\javaYc\\VSCode\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\c++",
+                "E:\\javaYc\\VSCode\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32",
+                "E:\\javaYc\\VSCode\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include-fixed",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "E:\\javaYc\\VSCode\\mingw\\bin\\g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
